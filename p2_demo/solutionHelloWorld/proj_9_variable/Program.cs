@@ -1,21 +1,11 @@
 ﻿using System;
 
-namespace helloWorldProjDotnet3
+namespace proj_9_variable
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // 在内存申请空间然后赋值 （初始值）
-            var n = 100;
-            var m = 200;
-            var sum = 0;
-
-            // 运算
-            sum = n + m;
-
-            // .NET 提供的打印的方法
-            Console.WriteLine(sum);
 
             // 处理数字
             Console.WriteLine("请输入一个数字: ");
